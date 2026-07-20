@@ -1,0 +1,32 @@
+{
+  "name": "impacthub-api",
+  "version": "1.0.0",
+  "description": "RESTful backend API for ImpactHub, a platform connecting volunteers with NGOs while tracking community impact.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OsonduGabriel/ImpactHub-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/OsonduGabriel/ImpactHub-API/issues"
+  },
+  "homepage": "https://github.com/OsonduGabriel/ImpactHub-API#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
